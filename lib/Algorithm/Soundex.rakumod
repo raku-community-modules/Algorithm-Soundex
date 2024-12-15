@@ -32,13 +32,6 @@ class Algorithm::Soundex {
 
 Algorithm::Soundex - Soundex algorithms in Raku
 
-=head1 DESCRIPTION
-
-Currently this module contains the American Soundex algorithm,
-implemented in Raku
-
-If you would like to add other Soundex algorithms, Patches Welcome!
-
 =head1 SYNOPSIS
 
 =begin code :lang<raku>
@@ -50,6 +43,13 @@ my $soundex               = $s.soundex("Leto");
 say "The soundex of Leto is $soundex";
 
 =end code
+
+=head1 DESCRIPTION
+
+Currently this module contains the American Soundex algorithm,
+implemented in Raku
+
+If you would like to add other Soundex algorithms, Patches Welcome!
 
 =head1 AUTHOR
 

@@ -5,13 +5,6 @@ NAME
 
 Algorithm::Soundex - Soundex algorithms in Raku
 
-DESCRIPTION
-===========
-
-Currently this module contains the American Soundex algorithm, implemented in Raku
-
-If you would like to add other Soundex algorithms, Patches Welcome!
-
 SYNOPSIS
 ========
 
@@ -22,6 +15,13 @@ my Algorithm::Soundex $s .= new;
 my $soundex               = $s.soundex("Leto");
 say "The soundex of Leto is $soundex";
 ```
+
+DESCRIPTION
+===========
+
+Currently this module contains the American Soundex algorithm, implemented in Raku
+
+If you would like to add other Soundex algorithms, Patches Welcome!
 
 AUTHOR
 ======

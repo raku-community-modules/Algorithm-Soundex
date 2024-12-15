@@ -1,4 +1,6 @@
 Revision history for Algorithm::Soundex
 
 {{$NEXT}}
+
+0.2  2024-12-15T12:09:12+01:00
     - Initial version as a Raku Community module
