@@ -1,5 +1,3 @@
-use v6;
-
 class Algorithm::Soundex {
 
     method soundex ($string --> Str ) {
@@ -24,38 +22,45 @@ class Algorithm::Soundex {
                     ]+
                     $ { take 0,0,0 }
                 /;
-            }.flat.[0,2,3,4].join;
+            }.flat.[0,2,3,4].join
     }
-
 }
+
 =begin pod
 
 =head1 NAME
 
-Algorithm::Soundex - Soundex Algorithms
+Algorithm::Soundex - Soundex algorithms in Raku
 
 =head1 DESCRIPTION
 
-Currently this module contains the American Soundex algorithm, implemented in Perl 6.
+Currently this module contains the American Soundex algorithm,
+implemented in Raku
 
-If you would like to add other Soundex algorithms, Patches Welcome! No, they are
-*actually* welcome :)
+If you would like to add other Soundex algorithms, Patches Welcome!
 
 =head1 SYNOPSIS
 
-=begin code
+=begin code :lang<raku>
 
-    use v6;
-    use Algorithm::Soundex;
+use Algorithm::Soundex;
 
-    my Algorithm::Soundex $s .= new();
-    my $soundex               = $s.soundex("Leto");
-    say "The soundex of Leto is $soundex";
+my Algorithm::Soundex $s .= new;
+my $soundex               = $s.soundex("Leto");
+say "The soundex of Leto is $soundex";
 
 =end code
 
 =head1 AUTHOR
 
-Jonathan "Duke" Leto - L<jonathan@leto.net>
+Jonathan Leto
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2011 - 2017 Jonathan Leto
+
+Copyright 2024 Raku Community
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
 =end pod

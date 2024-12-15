@@ -1,20 +1,25 @@
 {
-  "name": "Algorithm::Soundex",
-  "source-url": "git://github.com/leto/perl6-Algorithm-Soundex.git",
-  "perl": "6.*",
+  "auth": "zef:raku-community-modules",
+  "authors": [
+    "Jonathan Leto"
+  ],
   "build-depends": [
-    
   ],
   "depends": [
-    
   ],
+  "description": "Soundex algorithms in Raku",
   "license": "Artistic-2.0",
+  "name": "Algorithm::Soundex",
+  "perl": "6.*",
   "provides": {
-    "Algorithm::Soundex": "lib/Algorithm/Soundex.pm"
+    "Algorithm::Soundex": "lib/Algorithm/Soundex.rakumod"
   },
-  "test-depends": [
-    "Test"
+  "resources": [
   ],
-  "version": "*",
-  "description": "Soundex Algorithm in Perl 6"
+  "source-url": "https://github.com/raku-community-modules/Algorithm-Soundex.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "*"
 }
